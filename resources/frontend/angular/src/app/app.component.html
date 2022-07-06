@@ -3,13 +3,26 @@
     <div class="col-md-auto">
       <h2>Subscribe to Newsletter</h2>
       <hr />
+      <div *ngIf="showSuccessMessage == true" class="alert alert-success" role="alert">
+        {{ successMessage }}
+      </div>
+      <div *ngIf="showErrorMessage == true" class="alert alert-danger" role="alert">
+        {{ errorMessage }}
+      </div>
       <form class="mt-4" [formGroup]="form" (ngSubmit)="submitForm()">
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" placeholder="Email" formControlName="email">
+          <input type="email" class="form-control" placeholder="Email" formControlName="email" (keyup)="clearForm()">
           <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <div class="row">
+          <div class="col">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+          <div class="col pt-2 pl-4 text-end">
+            <span role="button" (click)="unsubscribe()">unsubscribe</span>
+          </div>
+        </div>
       </form>
     </div>
   </div>
