@@ -9,6 +9,6 @@
 <link rel="stylesheet" href="/assets/angular/styles.ef46db3751d8e999.css"></head>
 <body>
   <app-root></app-root>
-<script src="/assets/angular/runtime.27845ceb5aedcb1f.js" type="module"></script><script src="/assets/angular/polyfills.55e452bef9dff314.js" type="module"></script><script src="/assets/angular/main.2452ad9eb3578399.js" type="module"></script>
+<script src="/assets/angular/runtime.27845ceb5aedcb1f.js" type="module"></script><script src="/assets/angular/polyfills.55e452bef9dff314.js" type="module"></script><script src="/assets/angular/main.634cafed45195704.js" type="module"></script>
 
 </body></html>
