@@ -1,0 +1,56 @@
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
+
+# Compiled output
+/resources/frontend/angular/dist
+/resources/frontend/angular/tmp
+/resources/frontend/angular/out-tsc
+/resources/frontend/angular/bazel-out
+
+# Node
+/resources/frontend/angular/node_modules
+/resources/frontend/angular/npm-debug.log
+/resources/frontend/angular/yarn-error.log
+
+# IDEs and editors
+/resources/frontend/angular/.idea/
+/resources/frontend/angular/.project
+/resources/frontend/angular/.classpath
+/resources/frontend/angular/.c9/
+/resources/frontend/angular/*.launch
+/resources/frontend/angular/.settings/
+/resources/frontend/angular/*.sublime-workspace
+
+# Visual Studio Code
+/resources/frontend/angular/.vscode/*
+/resources/frontend/angular/!.vscode/settings.json
+/resources/frontend/angular/!.vscode/tasks.json
+/resources/frontend/angular/!.vscode/launch.json
+/resources/frontend/angular/!.vscode/extensions.json
+/resources/frontend/angular/.history/*
+
+# Miscellaneous
+/resources/frontend/angular/.angular/cache
+/resources/frontend/angular/.sass-cache/
+/resources/frontend/angular/connect.lock
+/resources/frontend/angular/coverage
+/resources/frontend/angular/libpeerconnection.log
+/resources/frontend/angular/testem.log
+/resources/frontend/angular/typings
+
+# System files
+/resources/frontend/angular/.DS_Store
+/resources/frontend/angular/Thumbs.db
